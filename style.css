@@ -1,0 +1,58 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #252422;
+  color: #fffcf2;
+}
+* {
+  box-sizing: border-box;
+}
+br {
+  color: #eb5e28, #252422, #403d39, #ccc5b9 #fffcf2;
+}
+h1 {
+  color: #fffcf2;
+}
+form {
+  display: flex;
+  justify-content: center;
+}
+
+#loader {
+  display: inline-block;
+  margin-left: 47%;
+  font-size: x-large;
+}
+#searchinput {
+  font-size: x-large;
+}
+
+#searchbutton {
+  font-size: x-large;
+}
+.movies {
+  margin: 10px;
+  display: inline-block;
+}
+.tr {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.tr p {
+  width: 100px;
+}
+#rating {
+  width: 20px;
+}
+
+button {
+  background-color: #eb5e28;
+  border: none;
+  color: black;
+}
+
+#clear {
+  display: inline;
+  font-size: x-large;
+  float: right;
+}
